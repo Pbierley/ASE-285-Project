@@ -56,33 +56,6 @@ The app focuses on:
 
 ---
 
-# Data Model
-
-```json
-{
-  "Session": {
-    "id": "uuid",
-    "title": "string",
-    "createdAt": "ISODate",
-    "updatedAt": "ISODate"
-  },
-  "Conversation": {
-    "id": "uuid",
-    "sessionId": "uuid",
-    "title": "string"
-  },
-  "Message": {
-    "id": "uuid",
-    "conversationId": "uuid",
-    "role": "user|assistant",
-    "content": "string",
-    "createdAt": "ISODate"
-  }
-}
-```
-
----
-
 # Architecture
 - React SPA frontend  
 - Redux state management  
